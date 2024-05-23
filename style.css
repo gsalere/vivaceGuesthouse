@@ -1,0 +1,903 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F6FBF3;
+    min-height: 250vh;
+}
+
+/* Cabeçalho */
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 9%;
+    margin-top: 1%;
+}
+
+.navbar-brand{
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    margin-right: 40%;
+    font-weight: lighter; 
+    color: #F6FBF3;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+li{
+    list-style: none; 
+    font-size: 18px;
+    
+}
+
+li a{
+    display: flex;
+    text-decoration: none;
+    color: #064535;
+}
+
+.btnReserva{
+    background-color: #064535;
+    color: #F6FBF3;
+    border: 2px solid transparent;
+    padding: 10% 15%;
+    font-size: 18px;
+    margin-top: -10%;
+    cursor: pointer;
+}
+
+.btnReserva:hover{
+    background-color: #F1BB63;
+    color: #064535;
+    border: 2px solid #064535;
+}
+
+.navbar-collapse a{
+    color: #F6FBF3;
+}
+
+.show button{
+    background-color: #F1BB63;
+    color: #064535;
+    padding: 2%;
+    margin-top: 5%;
+    border: 3px solid transparent;
+}
+    
+.show button:hover{
+    background-color: #064535;
+    color: #F6FBF3;
+    border: 3px solid #F6FBF3;
+}
+
+
+/* Container 1  */
+
+.container01{
+    min-height: 90vh;
+    background-image: linear-gradient(to right, #064535 50% , #F1BB63 50%);
+}
+
+.contentImg{
+    border-radius: 10% 0 0 0;
+    width: 152.4%;
+    height: 520px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row; 
+}
+
+.contentH1{
+    color: #F6FBF3;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: lighter;
+    margin-bottom: 5%;
+}
+
+.contentP{
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #F6FBF3;
+    font-weight: lighter;
+    width: 80%;
+}
+
+.contentBtn{
+    margin-top: 5%;
+    background-color: #F1BB63;
+    color: #064535;
+    padding: 4% 7%;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+}
+
+.contentBtn:hover{
+    background-color: #064535;
+    color: #F1BB63;
+    border: 2px solid #F1BB63;
+}
+
+.content-left{
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.content-right{
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 14.3%;
+}
+/*------------------Finalização Container1--------------------------------*/
+
+/*------------------Container 2------------------------------------------ */
+
+.container02{
+    min-height: 70vh;
+    background-color: #F6FBF3;
+}
+
+.about{
+    margin-top: 10vh;
+    min-height: 50vh;
+    background-image: linear-gradient(to right, #fff 95%, #51925A 5% );
+    display: flex;
+    flex-direction: row;
+}
+
+
+.aboutImg{
+    height: 50vh;
+    width: 40%;
+}
+
+.textAbout{
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 30%;
+}
+
+.aboutH1{
+    font-family: "Playfair Display", serif;;
+    color: #064535;
+    font-size: 48px;
+    font-weight: lighter;
+    margin-bottom: 5%;
+}
+
+.aboutP{
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #064535;
+    font-weight: lighter;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.aboutBtn{
+    background-color: #F1BB63;
+    color: #064535;
+    padding: 2% 3%;
+    font-weight: light;
+    font-size: 24px;
+    width: 70%;
+    border: 3px solid transparent;
+}
+
+.aboutBtn:hover{
+    background-color: #064535;
+    color: #F1BB63;
+    border: 3px solid #F1BB63;
+}
+
+/*------------------Finalização Container2--------------------------------*/
+
+/*------------------Container 3------------------------------------------ */
+
+.container03{
+    min-height: 80vh;
+    background-color: #064535;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.roomLeft{
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.roomH1{
+    font-family: "Playfair Display", serif;
+    color: #F4EEA9;
+    font-weight: lighter;
+    width: 70%;
+
+}
+
+.roomP{
+    color: #F4EEA9;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: light;
+    width: 60%;
+    margin-top: 10%;
+}
+
+.carouselImg{
+    margin-top: 15%;
+    width: 70vh;
+    height: 50vh;
+    
+}
+
+.slide{
+    margin-left: 10vh;
+    width: 70vh;
+}
+
+
+/*------------------Finalização Container3--------------------------------*/
+
+/*------------------Container 4------------------------------------------ */
+
+.container04{
+    min-height: 10vh;
+    background-color: #F1BB63;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    margin-top: -1.5%;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+.item1{
+    display: flex;
+    flex-direction: row;
+}
+
+.itemP{
+    margin-left: 5%;
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: light;
+    width: 60%;
+    margin-top: 1%;
+    color: #064535;
+}
+
+.icon{
+    background-color: #064535;
+    padding: 5%;
+    border-radius: 44%;
+    border: 2px solid #F1BB63;
+}
+
+.item2{
+    display: flex;
+    flex-direction: row;
+}
+
+.item3{
+    display: flex;
+    flex-direction: row;
+}
+
+/*------------------Finalização Container4--------------------------------*/
+
+/*------------------Container 5------------------------------------------ */
+
+.container05{
+    min-height: 100vh;
+    background-color: #F6FBF3;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 1%;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+.formContact{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+form h1{
+    font-family: "Playfair Display", serif;
+    color: #064535;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.form label{
+    color: #064535;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: light;
+    margin-top: 8%;
+    color: #064535;
+}
+
+.form button{
+    margin-top: 10%;
+    background-color: #064535;
+    color: #F1BB63;
+    padding: 2% 3%;
+    font-weight: light;
+    font-size: 24px;
+    width: 100%;
+    border: 3px solid transparent;
+    margin-bottom: 10%;
+}
+
+.form button:hover{
+    background-color: #F1BB63;
+    color: #064535;
+    border: 3px solid #064535;
+}
+
+.lastImg{
+    margin-top: 17%;
+    height: 70%;
+    margin-left: -30%;
+    width: 110%;
+}
+
+/*------------------Finalização Container5--------------------------------*/
+
+/*------------------Container 6------------------------------------------ */
+
+.container06{
+    min-height: 50vh;
+    background-color: #F4EEA9;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 1%;
+    padding: 5% 10%;
+    justify-content: space-between;
+}
+
+
+.info{
+    color: #064535;
+}
+
+.infoH3{
+    font-family: "Playfair Display", serif;
+    color: #064535;
+    font-weight: lighter;
+    font-size: 36px;
+    margin-bottom: 10%;
+}
+
+.infoP{
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+    color: #064535;
+}
+
+.explore{
+    color: #064535;
+    margin-top: 1%;
+}
+
+.exploreH3{
+    font-family: "Playfair Display", serif;
+    color: #064535;
+    font-weight: lighter;
+    font-size: 24px;
+    margin-bottom: 25%;
+}
+
+.exploreA{
+    text-decoration: none;
+    color: #064535;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.exploreA:hover{
+    color: #51925A;
+}
+
+.news{
+    color: #064535;
+    margin-top: 1%;
+}
+
+.newsH3{
+    font-family: "Playfair Display", serif;
+    color: #064535;
+    font-weight: lighter;
+    font-size: 24px;
+    margin-bottom: 10%;
+}
+
+.btnNews{
+    background-color: #064535;
+    color: #F1BB63;
+    padding: 2.3% 3% 1.9% 3%;
+    font-weight: light;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    border: 3px solid transparent;
+    margin-left: -5%;
+}
+
+.btnNews:hover{
+    background-color: #F1BB63;
+    color: #064535;
+    border: 3px solid #064535;
+}
+
+#emailNews{
+    padding: 2.7% 3%;
+    width: 73%;
+}
+
+/*------------------Finalização Container 6--------------------------------*/
+
+/*------------------Footer-------------------------------------------------*/
+
+.footer{
+    background-color: #F1BB63;
+    min-height: 2vh;
+    padding: 4vh;
+}
+
+.footerP{
+    margin-top: 1%;
+    margin-left: 8.5%;
+    font-weight: light;
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #064535;
+}
+/*------------------Finalização Footer--------------------------------------*/
+
+/*------------------Responsividade------------------------------------------*/
+@media(min-width:2200px){
+    .navbar-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .navbar-collapse{
+        margin-left: 5%;
+    }
+}
+
+@media(max-width:1500px){
+    
+    .container02{
+        min-height: 100vh;
+        background-color: #F6FBF3;
+    }
+}
+@media(max-width:1220px){
+    .lastImg{
+        width: 90%;
+        margin-left: -10%;
+
+    }
+
+    .container02{
+        min-height: 70vh;
+        background-color: #F6FBF3;
+    }
+
+    .item1{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .itemP{
+        margin-left: 5%;
+        font-size: 18px;
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: light;
+        width: 60%;
+        margin-top: 3%;
+        color: #064535;
+    }
+    
+    .icon{
+        background-color: #064535;
+        padding: 5%;
+        border-radius: 44%;
+        border: 2px solid #F1BB63;
+        width: 30%;
+    }
+    
+    .item2{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .item3{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .roomP{
+        font-size: 14px;
+    }
+
+    .aboutP{
+        font-size: 14px;
+    }
+}
+
+
+
+@media(max-width:991px){
+    .explore{
+        display: none;
+    }
+
+    .contentBtn{
+        margin-bottom: 10%;
+        font-size: 18px;
+    }
+
+    .contentH1{
+        font-size: 36px;
+    }
+
+    .contentP{
+        font-size: 16px;
+    }
+
+    .contentImg{
+        height: 100%;
+    }
+
+    .itemP{
+        font-size: 14px;
+    }
+
+    .aboutBtn{
+        margin-bottom: 10%;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:722px){
+    .container01{
+        min-height: 90vh;
+        background-image: linear-gradient(to right, #064535 100%, #064535 100%);
+    }
+
+    .content-right{
+        display: none;
+    }
+
+    .content-left{
+        width: 40%;
+    }
+
+    .contentBtn{
+        font-size: 14px;
+        width: 75%;
+    }
+
+
+    .aboutH1{
+        font-size: 24px;
+    }
+
+    .aboutBtn{
+        font-size: 14px;
+        width: 75%;
+    }
+
+    .slide{
+        margin-left: 5vh;
+    }
+
+    .itemP{
+        font-size: 12px;
+    }
+
+    .icon{
+        height: 90%;
+    }
+
+    .container05{
+        min-height: 40vh;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .form h1{
+        font-size: 24px;
+        margin-bottom: -3%;
+    }
+
+    textarea{
+        height: 10rem;
+    }
+
+    .imgFinal{
+        display: none;
+    }
+
+    .infop{
+        font-size: 10px;
+    }
+
+    .infoH3{
+        font-size: 24px;
+    }
+
+    .newsH3{
+        font-size: 24px;
+    }
+
+    .formNews{
+        width: 97%;
+    }
+}
+
+@media(max-width:620px){
+    .container06{
+        flex-direction: column;
+    }
+
+    .infoH3{
+        margin-bottom: 10px;
+    }
+
+    .newsH3{
+        margin-bottom: 10px;
+    }
+
+    #emailNews{
+        width: 45%;
+    }
+}
+
+@media(max-width:584px){
+    .itemP{
+        font-size: 8px;
+    }
+
+    .contentBtn{
+        font-size: 12px;
+    }
+
+    .roomP{
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+@media(max-width:472px){
+    .contentH1{
+        font-size: 24px;
+    }
+
+    .contentBtn{
+        font-size: 10px;
+    }
+
+    .container03{
+        min-height: 70vh;
+    }
+
+    .carouselImg{
+        width: 50vh;
+    }
+
+    .slide{
+        width: 50vh;
+    }
+
+    .form{
+        width: 70%;
+    }
+
+    .form h1{
+        font-size: 20px;
+        margin-bottom: -3%;
+    }
+
+    .form label{
+        font-size: 14px;
+    }
+
+    .form button{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:437px){
+    .content-left{
+        width: 170%;
+    }
+
+    .itemP{
+        font-size: 6px;
+    }
+
+    .aboutP{
+        font-size: 10px;
+    }
+
+    .aboutBtn{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:380px){
+    .carouselImg{
+        width: 40vh;
+        height: 40vh;
+    }
+
+    .slide{
+        width: 40vh;
+        height: 50vh;
+    }
+    
+    .container03{
+        min-height: 60vh;
+    }
+
+    .newsH3{
+        font-size: 16px;
+    }
+
+   
+
+    .formNews{
+        width: 90%;
+    
+        padding: 0;
+        font-size: 10px;
+    }
+
+
+    .btnNews{
+        font-size: 11.5px;
+        
+    }
+
+    .navbar-brand{
+        font-size: 24px;
+    }
+
+
+}
+
+@media(max-width:321px){
+    .itemP{
+        font-size: 5px;
+    }
+
+    .carouselImg{
+        width: 30vh;
+        height: 40vh;
+    }
+
+    .slide{
+        width: 30vh;
+        height: 50vh;
+    }
+
+    .navbar-brand{
+        font-size: 16px;
+    }
+
+    .navbar-toggler{
+        width: 10%;
+        height: 5%;
+    }
+    
+    .navbar-toggler-icon{
+        width: 22px;
+        height: 18px;
+        margin-left: -10px;
+    }
+
+    .footerP{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:281px){
+    .container04{
+        display: none;
+    }
+
+    .roomH1{
+        font-size: 14px;
+    }
+
+    .roomP{
+        font-size: 10px;
+    }
+
+    .aboutH1{
+        font-size: 14px;
+    }
+
+    .aboutP{
+        font-size:6px;
+    }
+
+    .aboutImg{
+        width: 30vh;
+        height: 30vh;
+    }
+
+    .about{
+        min-height: 30vh;
+    }
+
+    .aboutBtn{
+        font-size: 6px;
+    }
+
+    .container02{
+        min-height: 40vh;
+    }
+
+    .contentH1{
+        font-size: 18px;
+        width:70%;
+    }
+
+    .contentP{
+        font-size: 10px;
+    }
+
+    .contentBtn{
+        font-size: 8px;
+    }
+
+    .container01{
+        min-height: 70vh;
+    }
+
+    .container03{
+        min-height: 50vh;
+    }
+
+    .carouselImg{
+        width: 25vh;
+        height: 30vh;
+    }
+
+    .slide{
+        width: 25vh;
+        height: 40vh;
+    }
+}
